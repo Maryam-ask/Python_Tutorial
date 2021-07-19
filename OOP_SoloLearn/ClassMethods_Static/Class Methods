@@ -1,0 +1,13 @@
+Class Methods:
+
+
+Methods of objects we've looked at so far are called by an instance of a class,
+which is then passed to the self parameter of the method.
+
+Class methods are different - they are called by a class, which is passed to the cls parameter of the method.
+
+A common use of these are factory methods, which instantiate an instance of a class,
+using different parameters than those usually passed to the class constructor.
+
+Class methods are marked with a classmethod decorator.
+    @classmethod

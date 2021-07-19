@@ -1,0 +1,11 @@
+Reusing Code:
+
+Code reuse is a very important part of programming in any language.
+
+For a large programming project to be successful,
+it is essential to abide by the Don't Repeat Yourself, or DRY, principle.
+
+!!! Bad, repetitive code is said to abide by the WET principle,
+     which stands for Write Everything Twice, or We Enjoy Typing.
+
+

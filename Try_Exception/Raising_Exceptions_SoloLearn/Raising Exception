@@ -1,0 +1,7 @@
+Raising exceptions:
+
+You can raise exception by using the raise statement.
+
+Exceptions can be raised with arguments that give detail about them.
+
+In except blocks, the raise statement can be used without arguments to re-raise whatever exception occurred.

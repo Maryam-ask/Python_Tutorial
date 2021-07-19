@@ -1,0 +1,36 @@
+Set:
+Sets are used to store multiple items in a single variable.
+
+A set is a collection which is both unordered and unindexed.
+** Sets are written with curly brackets.
+
+!!!! Duplicates Not Allowed:
+     Sets cannot have two items with the same value.
+
+******************************************************************************
+Access Items:
+You cannot access items in a set by referring to an index or a key.
+
+******************************************************************************
+Add Sets:
+To add items from another set into the current set, use the update() method.
+
+******************************************************************************
+Add Any Iterable:
+The object in the update() method does not have to be a set,
+it can be any iterable object (tuples, lists, dictionaries etc.).
+
+******************************************************************************
+Keep ONLY the Duplicates:
+1. The intersection_update() method will keep only the items that are present in both sets.
+        x.intersection_update(y)
+2. The intersection() method will return a new set, that only contains the items that are present in both sets.
+        z = x.intersection(y)
+
+******************************************************************************
+Keep All, But NOT the Duplicates:
+1. The symmetric_difference_update() method will keep only the elements that are NOT present in both sets.
+        x.symmetric_difference_update(y)
+2. The symmetric_difference() method will return a new set, that contains only the elements that are NOT present in both sets.
+        z = x.symmetric_difference(y)
+

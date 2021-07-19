@@ -1,0 +1,35 @@
+Dictionary:
+Dictionaries are used to store data values in key:value pairs.
+
+!!! A dictionary is a collection which is ordered*, changeable and does not allow duplicates.
+
+***********************************************************************************************
+Update Dictionary:
+The update() method will update the dictionary with the items from the given argument.
+                car.update({"year":2020})
+
+***********************************************************************************************
+Remove Dictionary Items:
+1. pop()
+        car.pop("model")
+2. del
+        del car["model"]
+3. clear()
+         car.clear()
+
+***********************************************************************************************
+Loop Through a Dictionary:
+    for x in thisdict:                      for x in thisdict.keys():
+       print(x)                                 print(x)
+
+    for x in thisdict:                      for x in thisdict.values():
+       print(thisdict[x])                       print(x)
+
+    for x, y in thisdict.items():
+        print(x, y)
+
+***********************************************************************************************
+Copy a Dictionary:
+!! You cannot copy a dictionary simply by typing dict2 = dict1,
+   because: dict2 will only be a reference to dict1,
+   and changes made in dict1 will automatically also be made in dict2.

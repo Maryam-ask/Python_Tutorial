@@ -1,0 +1,9 @@
+Finally:
+
+To ensure some code runs no matter what errors occur, you can use a finally statement.
+
+the finally statement is placed at the bottom of a try/except statement.
+
+!! Code within a finally statement always runs after execution of the code in try and possible in the except, blocks.
+
+Code in a finally statement even runs if an uncaught exception occurs in one of the preceding blocks.

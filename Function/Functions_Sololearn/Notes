@@ -1,0 +1,7 @@
+Functions:
+The words in front of the parentheses are function names,
+and the comma-separated values inside the parentheses are function arguments.
+
+
+Functions help break our program into smaller, modular chunks.
+As our program gets bigger and more complex, functions help to make it more organized and manageable.

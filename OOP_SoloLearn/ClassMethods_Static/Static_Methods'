@@ -1,0 +1,5 @@
+Static Methods:
+
+
+Static methods are similar to class methods, except they don't receive any additional arguments; they are identical to normal functions that belong to a class.
+They are marked with the staticmethod decorator.

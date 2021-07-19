@@ -1,0 +1,9 @@
+Format the Result:
+
+The example above prints a JSON string, but it is not very easy to read, with no indentations and line breaks.
+The json.dumps() method has parameters to make it easier to read the result.
+
+
+You can also define the separators, default value is (", ", ": "),
+which means using a comma and a space to separate each object,
+and a colon and a space to separate keys from values:

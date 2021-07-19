@@ -1,0 +1,24 @@
+List slices provide a more advanced way of retrieving values from a list.
+Basic list slicing involves indexing a list with two colon-separated integers.
+This returns a new list containing all the values in the old list between the indices.
+
+*********************************************************************************************
+If the first number in a slice is omitted, it is taken to be the start of the list.
+If the second number is omitted, it is taken to be the end.
+
+*********************************************************************************************
+Negative values can be used in list slicing (and normal list indexing).
+When negative values are used for the first and second values in a slice (or a normal index),
+ they count from the end of the list.
+
+*********************************************************************************************
+LIST COMPREHENSIONS:
+
+List comprehensions are a useful way of quickly creating lists whose contents obey a simple rule.
+
+A list comprehension can also contain an if statement to enforce a condition on values in the list.
+
+Trying to create a list in a very extensive range will result in a MemoryError.
+This code shows an example where the list comprehension runs out of memory.
+
+        even = [2*i for i in range(10**100)]

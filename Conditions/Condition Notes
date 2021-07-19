@@ -1,0 +1,18 @@
+Python Conditions and If statements:
+
+Python supports the usual logical conditions from mathematics:
+    Equals:                         a == b
+    Not Equals:                     a != b
+    Less than:                      a < b
+    Less than or equal to:          a <= b
+    Greater than:                   a > b
+    Greater than or equal to:       a >= b
+
+# *************************************************************************************************'
+Short Hand if-else:
+     a = 2
+     b = 330
+     print("A") if a > b else print("B")
+
+This technique is known as Ternary Operators, or Conditional Expressions.
+

@@ -1,0 +1,48 @@
+!! Like many other popular programming languages, strings in Python are arrays of bytes representing unicode characters.
+
+Mitavanim hamzaman chandta string baham vared konim vali bayad ---> 3 ta quote bezarim
+
+Python does not have a character data type, a single character is simply a string with a length of 1.
+
+****************************************************
+Mitavanim az for loop baraye khandane khanehaye String stefade konim
+for x in "banan"
+    print(x) -----------------> Manande For-each dar java amal mikonad
+
+*****************************************************
+Baraye gereftane size String ---> len()
+
+****************************************************
+
+agar mikhahim yek charactery ra dar ye String peida konim az ----> in  estefade mikonim:
+txt = "The best things in life are free!"
+print("free" in txt)
+
+****************************************************
+
+Baraxe halate bala bara inke bebinim ye character dar yek String NIST ----> not in
+txt = "The best things in life are free!"
+print("bad" not in txt)
+
+***************************************************
+Baraye range dadan be characterha dar String:
+b = "Hello, world"
+print(b[2:5]) ----> beine 2 ta 5 ----> : ta
+
+*************************************************'
+Baraye Tabdile String be Upper-Case ----> upper() ---> ye method dar String ast
+b="aghaye askari"
+print(b.upper())
+
+Hamin halat baraye Lower-Case ham sedg darad ---> lower() ---> in ham ye method darone String ast
+
+***************************************************
+Baraye hazf kardane Space ebteda va enteha ---> Method ---> strip()
+
+****************************************************
+Baraye replace kardane yek harf ba harfe digar ---- method ---> replace()
+
+****************************************************
+The split() method returns a list where the text between the specified separator becomes the list items.
+
+*****************************************************

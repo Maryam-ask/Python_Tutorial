@@ -1,0 +1,18 @@
+Python Math:
+Python has a set of built-in math functions,
+including an extensive math module,
+that allows you to perform mathematical tasks on numbers.
+
+
+The Math Module
+Python has also a built-in module called math, which extends the list of mathematical functions.
+To use it, you must import the math module
+import math
+
+*********************************************************************************************
+Built-in Math Functions
+The min() and max() functions can be used to find the lowest or highest value in an iterable:
+
+**********************************************************************************************
+1. The abs() function returns the absolute (positive) value of the specified number.
+2. The pow(x, y) function returns the value of x to the power of y (x be tavane y).

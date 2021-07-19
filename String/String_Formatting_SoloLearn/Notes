@@ -1,0 +1,10 @@
+String Formatting:
+
+So far, to combine strings and non-strings, you've converted the non-strings to strings and added them.
+String formatting provides a more powerful way to embed non-strings within strings.
+String formatting uses a string's format method to substitute a number of arguments in the string.
+
+!! Each argument of the format function is placed in the string at the corresponding position,
+        which is determined using the curly braces { }.
+
+

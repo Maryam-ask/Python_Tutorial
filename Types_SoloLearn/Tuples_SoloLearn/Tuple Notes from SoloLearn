@@ -1,0 +1,20 @@
+Tuples:
+
+
+Tuples are very similar to lists, except that they are immutable (they cannot be changed).
+Also, they are created using parentheses, rather than square brackets.
+
+    words = ("spam", "eggs", "sausages",)
+
+
+You can access the values in the tuple with their index, just as you did with lists:
+
+    print(word[0])
+
+
+
+Trying to reassign a value in a tuple causes a TypeError.
+    words[1] = "cheese"
+
+
+!!! Tuples are faster than lists, but they cannot be changed.

@@ -1,0 +1,24 @@
+Modules:
+
+Modules are pieces of code that other people have written to fulfill common tasks,
+such as generating random numbers, performing mathematical operations, etc.
+
+
+The basic way to use a module is to add import module_name at the top of your code,
+and then using module_name.var to access functions and values with the name var in the module.
+
+****************************************************************************************************
+There is another kind of import that can be used if you only need certain functions from a module.
+These take the form from module_name import var, and then var can be used as if it were defined normally in your code.
+
+****************************************************************************************************
+!!! Use a comma separated list to import multiple objects.
+EX: from math import pi, sqrt
+
+!!! * imports all objects from a module. For example: from math import *
+
+!!! Trying to import a module that isn't available causes an ImportError.
+
+****************************************************************************************************
+You can import a module or object under a different name using the as keyword.
+This is mainly used when a module or object has a long or confusing name.

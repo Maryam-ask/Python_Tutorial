@@ -1,0 +1,32 @@
+Dictionaries
+
+Dictionaries are data structures used to map arbitrary keys to values.
+
+Lists can be thought of as dictionaries with integer keys within a certain range.
+
+
+Dictionaries can be indexed in the same way as lists, using square brackets containing keys.
+
+!!!! Each element in a dictionary is represented by a key:value pair.
+
+!! An empty dictionary is defined as {}.
+
+*******************************************************************************************************************
+
+Only immutable objects can be used as keys to dictionaries.
+Immutable objects are those that can't be changed.
+So far, the only mutable objects you've come across are lists and dictionaries.
+Trying to use a mutable object as a dictionary key causes a TypeError.
+
+*******************************************************************************************************************
+Just like lists, dictionary keys can be assigned to different values.
+However, unlike lists, a new dictionary key can also be assigned a value, not just ones that already exist.
+
+*******************************************************************************************************************
+Moooooooooheeeeeem:
+To determine whether a key is in a dictionary, you can use in and not in, just as you can for a list.
+
+*******************************************************************************************************************
+A useful dictionary method is get.
+It does the same thing as indexing,
+but if the key is not found in the dictionary it returns another specified value instead ('None', by default)

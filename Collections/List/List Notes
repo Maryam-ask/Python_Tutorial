@@ -1,0 +1,51 @@
+List:
+---> Lists are used to store multiple items in a single variable.
+
+** collections of data:
+  1.List: ----> is a collection which is ordered and changeable. Allows duplicate members.
+  2.Tuple: ---->  is a collection which is ordered and unchangeable. Allows duplicate members.
+  3.Set: ---->  is a collection which is unordered and unindexed. No duplicate members.
+  4.Dictionary ----> is a collection which is ordered* and changeable. No duplicate members.
+
+
+List Items:
+--> List items are ordered, changeable, and allow duplicate values.
+--> List items are indexed, the first item has index [0], the second item has index [1] etc.
+
+!!! Ordered: ----> It means that the items have a defined order, and that order will not change.
+             ----> If you add new items to a list, the new items will be placed at the end of the list.
+
+!!! Changeable: ----> It meaning that we can change, add, and remove items in a list after it has been created.
+
+!!! Allow Duplicates: ----> lists can have items with the same value.
+
+**********************************************************************************************************************
+
+Append() Items:
+To add an item to the end of the list, use the append() method.
+
+**********************************************************************************************************************
+
+Extend() List:
+To append elements from another list to the current list, use the extend() method.
+
+**********************************************************************************************************************
+
+Remove() item:
+The remove() method removes the specified item.
+
+**********************************************************************************************************************
+
+POP() :
+The pop() method removes the specified index.
+
+**********************************************************************************************************************
+
+!!! The del keyword also removes the specified index:
+!!! The del keyword can also delete the list completely.
+
+**********************************************************************************************************************
+
+Clear() Method:
+The clear() method empties the list.
+!!! The list still remains, but it has no content.

@@ -1,0 +1,5 @@
+Sort() Method: ----> will sort the list alphanumerically, ascending, by default.
+*********************************************************************************************************************
+Sort Descending: ----> use the keyword argument reverse = True.
+*********************************************************************************************************************
+Customize Sort Function: ----> You can also customize your own function by using the keyword argument key = function.

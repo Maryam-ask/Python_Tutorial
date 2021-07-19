@@ -1,0 +1,5 @@
+Use the range() and len() functions to create a suitable iterable.
+
+Looping Using List Comprehension :
+A short hand for loop that will print all items in a list:
+!!!!    [print(x) for x in nameList]
