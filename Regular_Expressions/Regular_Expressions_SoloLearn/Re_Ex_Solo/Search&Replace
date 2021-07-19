@@ -1,0 +1,10 @@
+Search & Replace:
+
+
+One of the most important re methods that use regular expressions is sub.
+    re.sub(pattern, repl, string, count = 0)
+
+
+This method replaces all occurrences of the pattern in string with repl,
+substituting all occurrences, unless count provided.
+This method returns the modified string.
