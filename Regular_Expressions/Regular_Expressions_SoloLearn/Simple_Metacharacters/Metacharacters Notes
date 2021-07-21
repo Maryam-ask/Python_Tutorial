@@ -53,3 +53,7 @@ Hence {0,1} is the same thing as ?.
 If the first number is missing, it is taken to be zero. If the second number is missing, it is taken to be infinity.
 
 ***************************************************************************************************
+
+
+Another important metacharacter is |.
+This means "or", so red|blue matches either "red" or "blue".
