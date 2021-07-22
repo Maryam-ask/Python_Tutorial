@@ -1,0 +1,8 @@
+Tuple Unpacking:
+
+Tuple unpacking allows you to assign each item in an iterable (often a tuple) to a variable.
+
+*************************************************************************'
+
+
+A variable that is prefaced with an asterisk (*) takes all values from the iterable that are left over from the other variables.

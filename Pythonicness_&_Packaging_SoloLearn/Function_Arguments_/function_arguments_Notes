@@ -1,0 +1,18 @@
+Function Arguments:
+
+
+Python allows to have function with varying number of arguments.
+Using *args as a function parameter enables you to pass an arbitrary number of arguments to that function.
+The arguments are then accessible as the tuple args in the body of the function.
+******************************************************************************************************************
+
+**kwargs (standing for keyword arguments) allows you to handle named arguments that you have not defined in advance.
+The keyword arguments return a dictionary in which the keys are the argument names, and the values are the argument values.
+
+******************************************************************************************************************
+
+Default Values:
+
+
+Named parameters to a function can be made optional by giving them a default value.
+These must come after named parameters without a default value.
